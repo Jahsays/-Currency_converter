@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+</head>
+<body>
+    <h1>Currency converter</h1>
+
+    <label for="amount">Amount</label>
+    <form action="#">
+        <input name="amount">
+         <!-- <datalist id="currencies">
+         <option value="USD">United States Dollar</option>
+         <option value="GBP">British Pound</option>
+         <option value="CAD">Canadian Dollar</option>
+         <option value="YEN">Japanese yen</option>
+         <option value="INR">Indian Rupee</option>
+        </datalist>  -->
+    </form>
+
+    <label for="base currency">From</label>
+    <form action="#">
+        <input list="currencies" name="currency" placeholder="Type to search">
+        <datalist id="currencies">
+         <option value="USD">United States Dollar</option>
+         <option value="GBP">British Pound</option>
+         <option value="CAD">Canadian Dollar</option>
+         <option value="YEN">Japanese yen</option>
+         <option value="INR">Indian Rupee</option>
+        </datalist>
+    </form>
+
+    <label for="quote currency">To</label>
+    <form action="#">
+        <input list="currencies" name="currency" placeholder="Type to search">
+        <datalist id="currencies">
+         <option value="USD">United States Dollar</option>
+         <option value="GBP">British Pound</option>
+         <option value="CAD">Canadian Dollar</option>
+         <option value="YEN">Japanese yen</option>
+         <option value="INR">Indian Rupee</option>
+        </datalist>
+        <input type="submit" value="Convert">
+    </form>
+</body>
+</html>
