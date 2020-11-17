@@ -1,0 +1,41 @@
+Body{
+    background-color: blue;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+
+.formdiv{
+    font-size: 20px;
+    display: inline-flex;
+    padding-top: 40px;
+}
+
+input{
+    padding: 10px; 
+    border-radius: 10px;
+    position: relative;
+    top: 15px;
+}
+
+label{
+    font-size: 30px;
+}
+
+.amount{
+    position: relative;
+    bottom: 20px;
+    left: 90px;
+}
+
+.from{
+    position: relative;
+    bottom: 20px;
+    left: 60px;
+}
+
+.to{
+    position: relative;
+    bottom: 20px;
+    left: 30px;
+}
