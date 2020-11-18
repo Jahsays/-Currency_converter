@@ -3,39 +3,37 @@ Body{
     text-align: center;
     font-family: 'Dancing Script', cursive;
     font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-.formdiv{
-    font-size: 20px;
-    display: inline-flex;
-    padding-top: 40px;
+.currency{
+    font-size: 65px;
+}
+
+select {
+    background: transparent;
+    border: none;
+    font-size: 25px;
 }
 
 input{
-    padding: 10px; 
-    border-radius: 10px;
-    position: relative;
-    top: 15px;
+    font-size: 25px;
+    
 }
 
-label{
-    font-size: 30px;
+button{
+    font-size: 25px;
+    transform: rotate(90deg);
 }
 
-.amount{
-    position: relative;
-    bottom: 20px;
-    left: 90px;
+button:active{
+    transform: rotate(90deg) scale(0.9);
 }
 
-.from{
+#exchange{
     position: relative;
-    bottom: 20px;
-    left: 60px;
-}
-
-.to{
-    position: relative;
-    bottom: 20px;
-    left: 30px;
+    right: 170px;
+    top: 10px;
 }

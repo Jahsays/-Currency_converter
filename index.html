@@ -4,48 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css">
     <title>Currency Converter</title>
 </head>
 <body>
     <h1>Currency converter</h1>
      
-    <div class="formdiv">
-    <label class="from-amount" for="from-amount">Amount</label>
-    <form action="#">
-        <input type="number">
-    </form>
+    <div class="container">
+        <div class="currency">
+            <select id="base_currency">
+            <option value="GBP">GBP</option>
+            <option value="USD">USD</option>
+            <option value="AUD">AUD</option>
+            <option value="CAD">CAD</option>
+            <option value="EUR">EUR</option>
+        </select>
+        <input type="number" id="base_amount">
+        </div>
+        <div class="center">
+            <button id="exchange">
+                <i class="fas fa-exchange-alt"></i>
+            </button>
+            <div class="rate" id="rate"></div>
+        </div>
 
-    <label class="to-amount" for="to-amount">Amount</label>
-    <form action="#">
-        <input type="number">
-    </form>
-
-    <label class="from" for="base currency">From</label>
-    <form action="#">
-        <input list="currencies" name="currency" placeholder="Type to search">
-        <datalist id="currencies">
-         <option value="USD">United States Dollar</option>
-         <option value="GBP">British Pound</option>
-         <option value="CAD">Canadian Dollar</option>
-         <option value="YEN">Japanese yen</option>
-         <option value="INR">Indian Rupee</option>
-        </datalist>
-    </form>
-
-    <label class="to" for="quote currency">To</label>
-    <form action="#">
-        <input list="currencies" name="currency" placeholder="Type to search">
-        <datalist id="currencies">
-         <option value="USD">United States Dollar</option>
-         <option value="GBP">British Pound</option>
-         <option value="CAD">Canadian Dollar</option>
-         <option value="YEN">Japanese yen</option>
-         <option value="INR">Indian Rupee</option>
-        </datalist>
-        <input type="submit" value="Convert">
-    </form>
-</div>
-<script src="script.js"></script>
+        <div class="currency">
+            <select id="quote_currency">
+            <option value="GBP">GBP</option>
+            <option value="USD">USD</option>
+            <option value="AUD">AUD</option>
+            <option value="CAD">CAD</option>
+            <option value="EUR">EUR</option>
+        </select>
+        <input type="number" id="quote_amount">
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
 </body>
 </html>
