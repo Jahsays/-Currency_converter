@@ -5,7 +5,7 @@ body {
     background-image: url(https://images.unsplash.com/photo-1519994775485-f8b4eebeefe6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60), url(https://images.unsplash.com/photo-1591994843349-f415893b3a6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60), url(https://images.unsplash.com/photo-1521897258701-21e2a01f5e8b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60), url(https://images.unsplash.com/photo-1565372781813-6e4d16bb4a3b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60), url(https://images.unsplash.com/photo-1580519541853-7af11585db4c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60), url(https://images.unsplash.com/photo-1594907841753-411e343a6d66?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
     background-position: top, top right, left top, bottom, bottom left, bottom right;
     background-repeat: no-repeat;
-	font-family: 'Dancing Script', cursive;
+	font-family: 'Castoro', serif;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -25,8 +25,8 @@ body {
     background-size: .50em auto, 100%;
 	border: 0;
 	padding-right: 20px;
-    font-size: 22px;
-    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    font-family: 'Castoro', serif;
     -moz-appearance: none;
     -webkit-appearance: none;
     appearance: none;
@@ -34,8 +34,8 @@ body {
 .currency input {
 	border: 0;
 	background: transparent;
-    font-size: 22px;
-    font-family: 'Dancing Script', cursive;
+    font-size: 21px;
+    font-family: 'Castoro', serif;
 	text-align: right;
 }
 .middle {

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Castoro&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css">
     <title>Currency Converter</title>
@@ -13,7 +13,8 @@
 
         <div class="container">
             <div class="currency">
-                <select id="base_currency">    
+                <select id="base_currency">  
+                    <option value="" disabled selected hidden>click to select a currency</option>  
                     <option value="AED">AED</option>
                     <option value="ARS">ARS</option>
                     <option value="AUD">AUD</option>
@@ -62,12 +63,12 @@
                     <option value="TRY">TRY</option>
                     <option value="TWD">TWD</option>
                     <option value="UAH">UAH</option>
-                    <option value="USD" selected>USD</option>
+                    <option value="USD">USD</option>
                     <option value="UYU">UYU</option>
                     <option value="VND">VND</option>
                     <option value="ZAR">ZAR</option>
                 </select>
-                <input type="number" id="base_amount" placeholder="0" value=1 />
+                <input type="number" id="base_amount" placeholder="Enter or select a number"  />
             </div>
             <div class="middle">
                 <button id="exchange">
@@ -76,7 +77,9 @@
                 <div class="rate" id="rate"></div>
             </div>
             <div class="currency">
-                <select id="quote_currency"><option value="AED">AED</option>
+                <select id="quote_currency">
+                    <option value="" disabled selected hidden>click to select a currency</option>
+                    <option value="AED">AED</option>
                     <option value="ARS">ARS</option>
                     <option value="AUD">AUD</option>
                     <option value="BGN">BGN</option>
@@ -100,7 +103,7 @@
                     <option value="HUF">HUF</option>
                     <option value="IDR">IDR</option>
                     <option value="ILS">ILS</option>
-                    <option value="INR" selected>INR</option>
+                    <option value="INR">INR</option>
                     <option value="ISK">ISK</option>
                     <option value="JPY">JPY</option>
                     <option value="KRW">KRW</option>
@@ -129,7 +132,7 @@
                     <option value="VND">VND</option>
                     <option value="ZAR">ZAR</option>
                 </select>
-                <input type="number" id="quote_amount" placeholder="0" />
+                <input type="number" id="quote_amount" placeholder="0" disabled/>
             </div>
         </div>
           <script  src="script.js"></script>
